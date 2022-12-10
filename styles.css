@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+/* Styling for the whole page */
 
 * {
     margin: 0;
@@ -8,38 +10,86 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vw;
     justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
-
 }
+
+/* Styling for the header of the page */
 .header {
     display: flex;
     background-color: #1f2937;
-    padding: 10px;
+    padding: 15px;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20%;
 }
 
 .header a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+}
+
+#logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .top {
+    padding: 30px 20%;
     background-color: #1f2937;
-    color: white;
+    color: #F9FAF8;
     flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+    flex-wrap: wrap-reverse;
 }
+
+.top .info {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    gap: 10px;
+}
+
+.top .info h1{
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.top .info a {
+    background-color: #3882f6;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.top img {
+    height: 400px;
+}
+
+/* Styling for the cards section */
 
 .cards {
     flex: 1;
 }
 
+/* Styling for the quote section */
+
 .quote {
     flex: 1;
 }
 
+/* Styling for the footer */
+
 footer {
-    padding: 10px;
+    padding: 15px;
     background-color: #1f2937;
     color: white;
 }
