@@ -164,6 +164,12 @@ body {
 }
 
 #call-to-action a {
+    width: fit-content;
+    padding: 8px 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #F9FAF8;
+    border: 1px solid white;
 }
 
 /* Styling for the footer */
