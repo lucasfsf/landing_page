@@ -137,6 +137,7 @@ body {
 
 .quote blockquote {
     font-style: italic;
+    margin: 15px 60px;
 }
 
 .quote cite {
